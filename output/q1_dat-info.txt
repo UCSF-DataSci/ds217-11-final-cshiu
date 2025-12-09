@@ -1,0 +1,81 @@
+============================================================
+Chicago Beach Weather Sensors - Dataset Information
+============================================================
+
+Dataset Shape: 196571 rows x 18 columns
+
+------------------------------------------------------------
+Column Names:
+------------------------------------------------------------
+ -Station Name
+ -Measurement Timestamp
+ -Air Temperature
+ -Wet Bulb Temperature
+ -Humidity
+ -Rain Intensity
+ -Interval Rain
+ -Total Rain
+ -Precipitation Type
+ -Wind Direction
+ -Wind Speed
+ -Maximum Wind Speed
+ -Barometric Pressure
+ -Solar Radiation
+ -Heading
+ -Battery Life
+ -Measurement Timestamp Label
+ -Measurement ID
+
+------------------------------------------------------------
+Data Types and Non-Null Counts:
+------------------------------------------------------------
+ Station Name: object, Non-Null Count: 196571
+ Measurement Timestamp: datetime64[ns], Non-Null Count: 196571
+ Air Temperature: float64, Non-Null Count: 196496
+ Wet Bulb Temperature: float64, Non-Null Count: 120494
+ Humidity: int64, Non-Null Count: 196571
+ Rain Intensity: float64, Non-Null Count: 120494
+ Interval Rain: float64, Non-Null Count: 196571
+ Total Rain: float64, Non-Null Count: 120494
+ Precipitation Type: float64, Non-Null Count: 120494
+ Wind Direction: int64, Non-Null Count: 196571
+ Wind Speed: float64, Non-Null Count: 196571
+ Maximum Wind Speed: float64, Non-Null Count: 196571
+ Barometric Pressure: float64, Non-Null Count: 196425
+ Solar Radiation: int64, Non-Null Count: 196571
+ Heading: float64, Non-Null Count: 120494
+ Battery Life: float64, Non-Null Count: 196571
+ Measurement Timestamp Label: object, Non-Null Count: 196571
+ Measurement ID: object, Non-Null Count: 196571
+
+------------------------------------------------------------
+Date Range:
+------------------------------------------------------------
+ Start Date: 2015-04-25 09:00:00
+ End Date: 2025-12-09 00:00:00
+Time Span: 3880 days
+
+------------------------------------------------------------
+Missing Value Counts per Column:
+------------------------------------------------------------
+ Station Name: 0 missing values
+ Measurement Timestamp: 0 missing values
+ Air Temperature: 75 missing values
+ Wet Bulb Temperature: 76077 missing values
+ Humidity: 0 missing values
+ Rain Intensity: 76077 missing values
+ Interval Rain: 0 missing values
+ Total Rain: 76077 missing values
+ Precipitation Type: 76077 missing values
+ Wind Direction: 0 missing values
+ Wind Speed: 0 missing values
+ Maximum Wind Speed: 0 missing values
+ Barometric Pressure: 146 missing values
+ Solar Radiation: 0 missing values
+ Heading: 76077 missing values
+ Battery Life: 0 missing values
+ Measurement Timestamp Label: 0 missing values
+ Measurement ID: 0 missing values
+
+Total Missing Values: 380606 out of 3538278 cells (10.76%)
+============================================================
