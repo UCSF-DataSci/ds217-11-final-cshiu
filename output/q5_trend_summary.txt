@@ -1,0 +1,113 @@
+KEY PATTERNS IDENTIFIED
+============================================================
+
+1. TEMPORAL TRENDS:
+------------------------------------------------------------
+Air Temperature:
+    - Shows clear seasonal pattern
+    - Peak in July (avg: 23.59)
+    - Lowest in January (avg: -2.53)
+    - Seasonal range: 26.12
+    - Overall trend: stable
+
+Wet Bulb Temperature:
+    - Shows clear seasonal pattern
+    - Peak in July (avg: 20.33)
+    - Lowest in January (avg: -3.53)
+    - Seasonal range: 23.86
+    - Overall trend: stable
+
+Humidity:
+    - Shows clear seasonal pattern
+    - Peak in July (avg: 72.11)
+    - Lowest in November (avg: 62.93)
+    - Seasonal range: 9.17
+    - Overall trend: decreasing (-3.21)
+
+2a. DAILY PATTERNS:
+------------------------------------------------------------
+Air Temperature:
+    - Relatively stable throughout the day
+    - Average: 12.61
+
+Wet Bulb Temperature:
+    - Relatively stable throughout the day
+    - Average: 9.98
+
+2b. WEEKLY PATTERNS:
+------------------------------------------------------------
+Air Temperature:
+    - No significant weekday vs weekend difference
+    - Consistent throughout the week
+
+Wet Bulb Temperature:
+    - No significant weekday vs weekend difference
+    - Consistent throughout the week
+
+2c. MONTHLY PATTERNS:
+------------------------------------------------------------
+Air Temperature:
+    - Shows strong seasonal pattern
+    - Peak month: Jul (avg: 23.59)
+    - Lowest month: Jan (avg: -2.53)
+    - Seasonal range: 26.12
+
+    Seasonal breakdown:
+      • Winter (Dec-Feb): -0.16
+      • Spring (Mar-May): 9.25
+      • Summer (Jun-Aug): 22.56
+      • Fall (Sep-Nov): 14.14
+
+Wet Bulb Temperature:
+    - Shows strong seasonal pattern
+    - Peak month: Jul (avg: 20.33)
+    - Lowest month: Jan (avg: -3.53)
+    - Seasonal range: 23.86
+
+    Seasonal breakdown:
+      • Winter (Dec-Feb): -1.49
+      • Spring (Mar-May): 6.90
+      • Summer (Jun-Aug): 19.19
+      • Fall (Sep-Nov): 11.08
+
+3. CORRELATIONS:
+------------------------------------------------------------
+- Air Temperature vs Wet Bulb Temperature: 0.978
+    (strong positive correlation)
+- day_of_week vs is_weekend: 0.787
+    (strong positive correlation)
+- Wind Speed vs Maximum Wind Speed: 0.597
+    (moderate positive correlation)
+- Wet Bulb Temperature vs Total Rain: 0.498
+    (moderate positive correlation)
+- Air Temperature vs Total Rain: 0.480
+    (moderate positive correlation)
+
+SUMMARY STATISTICS:
+------------------------------------------------------------
+Air Temperature:
+    - Mean: 12.61
+    - Std Dev: 10.44
+    - Min: -21.50
+    - Max: 37.60
+    - Range: 59.10
+
+Wet Bulb Temperature:
+    - Mean: 9.98
+    - Std Dev: 9.41
+    - Min: -20.55
+    - Max: 28.40
+    - Range: 48.95
+
+Humidity:
+    - Mean: 68.02
+    - Std Dev: 15.62
+    - Min: 22.50
+    - Max: 100.00
+    - Range: 77.50
+
+============================================================
+Analysis Period: 2015-04-25 to 2025-12-09
+Total Records: 196,571
+Variables Analyzed: 18
+============================================================
