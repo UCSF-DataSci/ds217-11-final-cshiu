@@ -1,0 +1,63 @@
+MODEL PERFORMANCE METRICS
+======================================================================
+
+Target Variable: Air Temperature
+Training Samples: 157,237
+Test Samples: 39,310
+Number of Features: 50
+
+======================================================================
+
+LINEAR REGRESSION:
+----------------------------------------------------------------------
+Train R²: 1.0000
+Test R²:  1.0000
+Train RMSE: 0.0000
+Test RMSE:  0.0000
+Train MAE: 0.0000
+Test MAE:  0.0000
+!  WARNING: Suspiciously high performance - check for data leakage!
+
+RANDOM FOREST:
+----------------------------------------------------------------------
+Train R²: 0.9969
+Test R²:  0.9909
+Train RMSE: 0.5888
+Test RMSE:  0.9708
+Train MAE: 0.3961
+Test MAE:  0.5179
+
+======================================================================
+MODEL COMPARISON
+======================================================================
+
+Best Model (by Test R²): Linear Regression
+  Test R²: 1.0000
+  Test RMSE: 0.0000
+  Test MAE: 0.0000
+
+Simplest Model: Linear Regression
+  Test R²: 1.0000
+  Test RMSE: 0.0000
+
+Ranking by Test R² (Best to Worst):
+  1. Linear Regression: R²=1.0000, RMSE=0.0000
+  2. Random Forest: R²=0.9909, RMSE=0.9708
+
+======================================================================
+PERFORMANCE ANALYSIS
+======================================================================
+
+Average Test R²: 0.9955
+Average Test RMSE: 0.4854
+
+Overall Performance: EXCELLENT
+  Models show strong predictive power
+
+! No significant overfitting detected across models
+
+======================================================================
+Note: R² (R-squared) measures proportion of variance explained
+      RMSE (Root Mean Squared Error) in target variable units
+      MAE (Mean Absolute Error) in target variable units
+======================================================================
