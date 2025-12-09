@@ -1,0 +1,260 @@
+DATA CLEANING REPORT
+================================================================================
+
+Dataset: Chicago Beach Sensor Data
+
+
+Overall Data Cleaning Summary
+=============================
+
+Rows Before Cleaning: 196,571
+Rows After Cleaning: 196,571
+Rows Removed: 0 (0.00%)
+Rows Retained: 196,571 (100.00%)
+Columns: 18
+
+Data Type Conversions
+=====================
+
+ - 'Measurement Timestamp' converted to datetime format.
+ -> No invalid timestamps found.
+
+Duplicate Removal
+=================
+
+No duplicate rows found.
+No duplicate rows detected
+
+DATA SORTING
+============
+
+Method: Sorted by 'Measurement Timestamp' in ascending order
+Result: Data chronologically ordered for time series analysis
+
+MISSING DATA HANDLING
+=====================
+
+Column: Air Temperature
+   Missing values: 75 (0.04%)
+   Method: Forward-fill then backward-fill (time series appropriate)
+   Fallback: Median imputation for remaining values
+   Median value: 13.67
+   Result: All 75 missing values filled
+
+Column: Wet Bulb Temperature
+   Missing values: 76,077 (38.70%)
+   Method: Forward-fill then backward-fill (time series appropriate)
+   Fallback: Median imputation for remaining values
+   Median value: 11.50
+   Result: All 76,077 missing values filled
+
+Column: Rain Intensity
+   Missing values: 76,077 (38.70%)
+   Method: Forward-fill then backward-fill (time series appropriate)
+   Fallback: Median imputation for remaining values
+   Median value: 0.00
+   Result: All 76,077 missing values filled
+
+Column: Total Rain
+   Missing values: 76,077 (38.70%)
+   Method: Forward-fill then backward-fill (time series appropriate)
+   Fallback: Median imputation for remaining values
+   Median value: 55.50
+   Result: All 76,077 missing values filled
+
+Column: Precipitation Type
+   Missing values: 76,077 (38.70%)
+   Method: Forward-fill then backward-fill (time series appropriate)
+   Fallback: Median imputation for remaining values
+   Median value: 0.00
+   Result: All 76,077 missing values filled
+
+Column: Barometric Pressure
+   Missing values: 146 (0.07%)
+   Method: Forward-fill then backward-fill (time series appropriate)
+   Fallback: Median imputation for remaining values
+   Median value: 994.40
+   Result: All 146 missing values filled
+
+Column: Heading
+   Missing values: 76,077 (38.70%)
+   Method: Forward-fill then backward-fill (time series appropriate)
+   Fallback: Median imputation for remaining values
+   Median value: 354.00
+   Result: All 76,077 missing values filled
+
+
+OUTLIER HANDLING
+================
+
+Detection Method: IQR (Interquartile Range) Method
+ Bounds: [Q1 - 1.5*IQR, Q3 + 1.5*IQR]
+Handling Method: Capped outliers to nearest bound instead of removal
+
+Column: Air Temperature
+   Outliers detected: 97 (0.05%)
+   Q1: 4.30
+   Q3: 21.50
+   IQR: 17.20
+   Lower bound: -21.50
+   Upper bound: 47.30
+   Method: Capped values to bounds
+   Result: 97 values capped
+
+Column: Wet Bulb Temperature
+   Outliers detected: 88 (0.07%)
+   Q1: 3.00
+   Q3: 18.40
+   IQR: 15.40
+   Lower bound: -20.10
+   Upper bound: 41.50
+   Method: Capped values to bounds
+   Result: 88 values capped
+
+Column: Humidity
+   Outliers detected: 185 (0.09%)
+   Q1: 57.00
+   Q3: 80.00
+   IQR: 23.00
+   Lower bound: 22.50
+   Upper bound: 114.50
+   Method: Capped values to bounds
+   Result: 185 values capped
+
+Column: Rain Intensity
+   Outliers detected: 4,250 (3.53%)
+   Q1: 0.00
+   Q3: 0.00
+   IQR: 0.00
+   Lower bound: 0.00
+   Upper bound: 0.00
+   Method: Capped values to bounds
+   Result: 4,250 values capped
+
+Column: Interval Rain
+   Outliers detected: 15,862 (8.07%)
+   Q1: 0.00
+   Q3: 0.00
+   IQR: 0.00
+   Lower bound: 0.00
+   Upper bound: 0.00
+   Method: Capped values to bounds
+   Result: 15,862 values capped
+
+Column: Total Rain
+   Outliers detected: 9,507 (7.89%)
+   Q1: 16.70
+   Q3: 200.50
+   IQR: 183.80
+   Lower bound: -259.00
+   Upper bound: 476.20
+   Method: Capped values to bounds
+   Result: 9,507 values capped
+
+Column: Precipitation Type
+   Outliers detected: 8,427 (6.99%)
+   Q1: 0.00
+   Q3: 0.00
+   IQR: 0.00
+   Lower bound: 0.00
+   Upper bound: 0.00
+   Method: Capped values to bounds
+   Result: 8,427 values capped
+
+Column: Wind Speed
+   Outliers detected: 12,229 (6.22%)
+   Q1: 1.60
+   Q3: 3.30
+   IQR: 1.70
+   Lower bound: -0.95
+   Upper bound: 5.85
+   Method: Capped values to bounds
+   Result: 12,229 values capped
+
+Column: Maximum Wind Speed
+   Outliers detected: 4,024 (2.05%)
+   Q1: 1.20
+   Q3: 5.20
+   IQR: 4.00
+   Lower bound: -4.80
+   Upper bound: 11.20
+   Method: Capped values to bounds
+   Result: 4,024 values capped
+
+Column: Barometric Pressure
+   Outliers detected: 4,611 (2.35%)
+   Q1: 990.20
+   Q3: 998.60
+   IQR: 8.40
+   Lower bound: 977.60
+   Upper bound: 1011.20
+   Method: Capped values to bounds
+   Result: 4,611 values capped
+
+Column: Solar Radiation
+   Outliers detected: 29,631 (15.07%)
+   Q1: 0.00
+   Q3: 130.00
+   IQR: 130.00
+   Lower bound: -195.00
+   Upper bound: 325.00
+   Method: Capped values to bounds
+   Result: 29,631 values capped
+
+Column: Heading
+   Outliers detected: 27,175 (22.55%)
+   Q1: 350.00
+   Q3: 357.00
+   IQR: 7.00
+   Lower bound: 339.50
+   Upper bound: 367.50
+   Method: Capped values to bounds
+   Result: 27,175 values capped
+
+Column: Battery Life
+   Outliers detected: 6 (0.00%)
+   Q1: 11.90
+   Q3: 15.10
+   IQR: 3.20
+   Lower bound: 7.10
+   Upper bound: 19.90
+   Method: Capped values to bounds
+   Result: 6 values capped
+
+
+DATA QUALITY SUMMARY
+====================
+
+Final Dataset Characteristics:
+   Total rows: 196,571
+   Total columns: 18
+   Date range: 2015-04-25 09:00:00 to 2025-12-09 00:00:00
+   Time span: 3880 days
+   Remaining missing values: 0
+   Duplicate timestamps: 114910
+
+Data Retention:
+   Retention rate: 100.00% (EXCELLENT)
+   Data loss: 0.00%
+
+CLEANING RATIONALE
+==================
+
+Time Series Considerations:
+   - Forward-fill and backward-fill preserve temporal continuity
+   - Suitable for sensor data where values change gradually
+   - Median imputation used as fallback for robustness
+
+Outlier Treatment:
+   - Capping preserves data points while removing extreme values
+   - Preferable to deletion for maintaining temporal continuity
+   - IQR method robust to extreme outliers
+
+Data Preservation:
+   - Minimal row deletion (only invalid timestamps and duplicates)
+   - Maximum retention of temporal information
+   - Final dataset: 196,571 rows retained
+
+================================================================================
+END OF REPORT
+================================================================================
