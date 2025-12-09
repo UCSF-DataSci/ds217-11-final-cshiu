@@ -1,0 +1,62 @@
+TRAIN/TEST SPLIT INFORMATION
+======================================================================
+
+1. SPLIT METHOD:
+----------------------------------------------------------------------
+Method: Temporal Split (chronological)
+Ratio: 80% training / 20% testing
+Rationale: Time series data requires temporal split to prevent data leakage
+
+2. DATASET SIZES:
+----------------------------------------------------------------------
+Training set size: 157,237 samples (80.0%)
+Test set size: 39,310 samples (20.0%)
+Total samples: 196,547
+
+3. DATE RANGES:
+----------------------------------------------------------------------
+Training date range: 2015-05-23 11:00:00 to 2023-07-10 14:00:00
+  Duration: 2970 days
+
+Test date range: 2023-07-10 15:00:00 to 2025-12-09 00:00:00
+  Duration: 882 days
+
+4. FEATURES:
+----------------------------------------------------------------------
+Number of features: 88
+
+Feature breakdown:
+  - Temporal: 19 features
+  - Rolling: 28 features
+  - Lag: 14 features
+  - Change: 14 features
+  - Aggregation: 14 features
+  - Original: 17 features
+
+5. TARGET VARIABLE:
+----------------------------------------------------------------------
+Target variable: Air Temperature
+
+Target statistics (training set):
+  - Mean: 12.54
+  - Std Dev: 10.50
+  - Min: -21.50
+  - Max: 37.00
+
+Target statistics (test set):
+  - Mean: 12.89
+  - Std Dev: 10.20
+  - Min: -21.50
+  - Max: 37.60
+
+OUTPUT FILES:
+----------------------------------------------------------------------
+Generated files:
+  - output/q6_X_train.csv (157,237 × 88)
+  - output/q6_X_test.csv (39,310 × 88)
+  - output/q6_y_train.csv (157,237 × 1)
+  - output/q6_y_test.csv (39,310 × 1)
+
+======================================================================
+Data is ready for model training and evaluation
+======================================================================
