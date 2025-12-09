@@ -1,0 +1,75 @@
+Air Temperature_change_24h
+Air Temperature_hourly_avg
+Air Temperature_lag_24h
+Air Temperature_rolling_mean_168h
+Air Temperature_rolling_std_168h
+Barometric Pressure_change_24h
+Barometric Pressure_hourly_avg
+Barometric Pressure_lag_24h
+Barometric Pressure_rolling_mean_168h
+Barometric Pressure_rolling_std_168h
+Battery Life_change_24h
+Battery Life_hourly_avg
+Battery Life_lag_24h
+Battery Life_rolling_mean_168h
+Battery Life_rolling_std_168h
+Heading_change_24h
+Heading_hourly_avg
+Heading_lag_24h
+Heading_rolling_mean_168h
+Heading_rolling_std_168h
+Humidity_change_24h
+Humidity_hourly_avg
+Humidity_lag_24h
+Humidity_rolling_mean_168h
+Humidity_rolling_std_168h
+Interval Rain_change_24h
+Interval Rain_hourly_avg
+Interval Rain_lag_24h
+Interval Rain_rolling_mean_168h
+Interval Rain_rolling_std_168h
+Maximum Wind Speed_change_24h
+Maximum Wind Speed_hourly_avg
+Maximum Wind Speed_lag_24h
+Maximum Wind Speed_rolling_mean_168h
+Maximum Wind Speed_rolling_std_168h
+Precipitation Type_change_24h
+Precipitation Type_hourly_avg
+Precipitation Type_lag_24h
+Precipitation Type_rolling_mean_168h
+Precipitation Type_rolling_std_168h
+Rain Intensity_change_24h
+Rain Intensity_hourly_avg
+Rain Intensity_lag_24h
+Rain Intensity_rolling_mean_168h
+Rain Intensity_rolling_std_168h
+Solar Radiation_change_24h
+Solar Radiation_hourly_avg
+Solar Radiation_lag_24h
+Solar Radiation_rolling_mean_168h
+Solar Radiation_rolling_std_168h
+Total Rain_change_24h
+Total Rain_hourly_avg
+Total Rain_lag_24h
+Total Rain_rolling_mean_168h
+Total Rain_rolling_std_168h
+Wet Bulb Temperature_change_24h
+Wet Bulb Temperature_hourly_avg
+Wet Bulb Temperature_lag_24h
+Wet Bulb Temperature_rolling_mean_168h
+Wet Bulb Temperature_rolling_std_168h
+Wind Direction_change_24h
+Wind Direction_hourly_avg
+Wind Direction_lag_24h
+Wind Direction_rolling_mean_168h
+Wind Direction_rolling_std_168h
+Wind Speed_change_24h
+Wind Speed_hourly_avg
+Wind Speed_lag_24h
+Wind Speed_rolling_mean_168h
+Wind Speed_rolling_std_168h
+day_of_week
+hour
+is_business_hours
+is_weekend
+month
