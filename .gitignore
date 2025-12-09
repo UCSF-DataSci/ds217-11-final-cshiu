@@ -22,3 +22,9 @@ __pycache__/
 # Logs / temporary files
 # -------------------------
 *.log
+
+output/*.csv
+
+# If you have other outputs like images or models, ignore them too:
+output/*.png
+output/*.jpg
