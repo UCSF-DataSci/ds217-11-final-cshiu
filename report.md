@@ -168,17 +168,35 @@ These temporal features enabled models to capture daily and seasonal patterns ef
 
 ## 3. Visualizations
 
-### Figure 4: Temporal Patterns Analysis
+### Figure 1: Time Series Data Exploration
 
-![Figure 4: Temporal Patterns Analysis](output/q5_patterns.png)
+![Figure 1: Time Series Data Exploration](output/q1_visualizations.png)
 
-**Caption:** Multi-panel visualization showing: (1) monthly trends, (2) seasonal patterns by month, (3) weekly patterns, (4) daily patterns by hour, and (5) correlation heatmap.
+**Caption:** Raw sensor readings showing temporal patterns of temperature measurements.
 
-### Figure 5: Final Model Evaluation
+### Figure 2: Temporal Temperature Patterns
 
-![Figure 5: Final Model Evaluation](output/q8_final_visualizations.png)
+![Figure 2: Temporal Temperature Patterns](output/q5_patterns.png)
 
-**Caption:** Comprehensive 5-panel visualization including: (1) model performance comparison, (2) predictions vs. actual for Linear, (3) top 15 feature importance, (4) residuals plot, and (5) all models overlay.
+**Caption:** Monthly, weekly, daily, hourly temperature patterns.
+
+### Figure 3: Box Plots - Outlier Detection and Distribution
+
+![Figure 3: Box Plots - Outlier Detection and Distribution](output/q9_boxplots.png)
+
+**Caption:** Box plots for outlier temperature data.
+
+### Figure 4: Seasonal and Yearly Patterns
+
+![Figure 4: Seasonal and Yearly Patterns](output/q9_seasonal_patterns.png)
+
+**Caption:** Two-panel visualization of monthly temperature and yearly temperature averages.
+
+### Figure 5: Multi-Scale Temporal Patterns
+
+![Figure 5: Multi-Scale Temporal Patterns](output/q9_patterns.png)
+
+**Caption:** Four-panel visualization of monthly, weekly, daily and yearly trends
 
 ---
 
