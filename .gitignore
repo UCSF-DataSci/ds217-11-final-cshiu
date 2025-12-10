@@ -3,7 +3,7 @@
 # Also this was the only way the .DS_Store file would not get committed
 # All required files were documented that they can and were generated in jupyter notebooks for each question
 # This gave me 24 hours of panic because nothing could be pushed to Github. 
-# If this is  a problem, please email me. Thanks!
+# If this is  a problem, please email me. Thanks!!
 
 # macOS system files
 .DS_Store
