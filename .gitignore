@@ -1,26 +1,21 @@
-# -------------------------
+
 # macOS system files
-# -------------------------
 .DS_Store
 
-# -------------------------
+
 # Python virtual environments
-# -------------------------
 venv/
 env/
 .venv/
 
-# -------------------------
+
 # Python bytecode / cache
-# -------------------------
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# -------------------------
 # Logs / temporary files
-# -------------------------
 *.log
 
 output/*.csv
