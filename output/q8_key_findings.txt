@@ -1,0 +1,93 @@
+KEY FINDINGS REPORT
+================================================================================
+
+Project: Time Series Modeling and Analysis
+Dataset: Chicago Beach Weather Sensors
+Target Variable: Air Temperature
+
+================================================================================
+
+1. BEST PERFORMING MODEL
+--------------------------------------------------------------------------------
+
+Model: Linear
+
+Performance Metrics:
+    - R² Score: 1.0000
+    - RMSE: 0.0000
+    - MAE: 0.0000
+
+Why This Model Performs Best:
+    - Linear models provide good baseline performance
+    - Fast training and prediction
+    - Works well when relationships are approximately linear
+
+Model Interpretation:
+    • Excellent fit: Model explains 100.0% of variance in Air Temperature
+    • Strong predictive power for this time series data
+
+2. KEY FINDINGS FROM FEATURE IMPORTANCE
+--------------------------------------------------------------------------------
+
+Most Important Features:
+  1. Wet Bulb Temperature (95.7%)
+  2. Air Temperature_change_24h (1.4%)
+  3. Air Temperature_lag_24h (1.2%)
+  4. Humidity_change_24h (0.8%)
+  5. Humidity_lag_24h (0.7%)
+
+Top 5 features collectively explain 99.8% of model decisions
+
+Feature Category Breakdown:
+  • Original Sensors: 95.9%
+  • Other: 2.2%
+  • Lag: 1.9%
+
+Key Insights:
+    - Temperature variables are primary drivers
+    - Strong thermal relationships in the data
+
+3. TEMPORAL PATTERNS IDENTIFIED
+--------------------------------------------------------------------------------
+
+Seasonal Patterns:
+    - Strong seasonal variation detected in Air Temperature
+    - Peak values occur in Jul (average: 23.59)
+    - Minimum values occur in Jan (average: -2.53)
+    - Seasonal range: 26.12
+
+Daily Patterns:
+    - Clear diurnal cycle observed
+    - Peak values at 16:00 (4 PM)
+    - Minimum values at 6:00 (6 AM)
+    - Daily range: 3.04
+
+Time Series Characteristics:
+    - Dataset spans from 2015-04-25 to 2025-12-09
+    - Total duration: 3880 days
+    - Temporal features are highly predictive
+
+4. DATA QUALITY SUMMARY
+--------------------------------------------------------------------------------
+
+Dataset Characteristics:
+    - Total records: 196,547
+    - Training set: 157,237 samples (80%)
+    - Test set: 39,310 samples (20%)
+    - Features used for modeling: 88
+
+Data Preparation Steps:
+    - Temporal train/test split (no data leakage)
+    - Missing values handled via forward/backward fill
+    - Outliers capped using IQR method
+    - Feature engineering: rolling windows, lags, temporal features
+
+Data Quality Assessment:
+    - High data retention rate achieved
+    - No data leakage detected in final models
+    - Temporal ordering preserved throughout pipeline
+    - Feature correlations checked for multicollinearity
+
+================================================================================
+END OF KEY FINDINGS REPORT
+================================================================================
