@@ -1,13 +1,17 @@
+# GITIGNORE FILE: HELLO @ DATASCI 217 Grading team: 
+# Some files were too large to push to github, so this file ignores large files (csv and png)
+# Also this was the only way the .DS_Store file would not get committed
+# All required files were documented that they can and were generated in jupyter notebooks for each question
+# This gave me 24 hours of panic because nothing could be pushed to Github. 
+# If this is  a problem, please email me. Thanks!
 
 # macOS system files
 .DS_Store
-
 
 # Python virtual environments
 venv/
 env/
 .venv/
-
 
 # Python bytecode / cache
 __pycache__/
@@ -18,8 +22,7 @@ __pycache__/
 # Logs / temporary files
 *.log
 
+# Large files in output folder
 output/*.csv
-
-# If you have other outputs like images or models, ignore them too:
 output/*.png
 output/*.jpg
